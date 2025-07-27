@@ -15,6 +15,12 @@ To develop an interactive Air Quality Monitoring Dashboard that visualizes real-
 - **Trend Analysis:** Track historical air quality trends over time, offering insights into pollution patterns.
 - **Area-Wise Overview:** View a geographical representation of air quality in India.
 - **Interactive Filters:** Filter the data based on specific cities and time periods for customized views.
+- **Dashboard Insights**:
+  - **Air Quality Report**: Displays average values for pollutants like CO, SO2, NO, and PM2.5, providing a snapshot of current air quality.
+  - **Top 5 Polluted Cities**: A bar chart showing cities with the highest average AQI.
+  - **Least Polluted Cities**: Displays cities with the lowest AQI values.
+  - **Area-Wise AQI Overview**: A geographical map showing AQI levels across India. Hover over cities to view detailed data.
+  - **AQI Trend Overview**: A line chart showcasing the historical AQI trend, allowing users to track improvements or deterioration over time.
 
 ## Technologies Used
 - **Data Visualization:** Power BI for interactive visualizations.
@@ -22,8 +28,9 @@ To develop an interactive Air Quality Monitoring Dashboard that visualizes real-
 - **Mapping:** Geospatial data representation for geographical insights.
 
 ## Data Insights
-- **Pollution Levels:** Highlights average AQI and pollutant readings across different cities.
-- **Geographical Overview:** A map section displays air quality across various regions, offering a quick visual assessment of pollution levels.
+- **Pollution Levels:** The dashboard highlights average AQI and pollutant readings across different cities, helping users identify pollution hotspots and compare cities' air quality.
+- **Geographical Overview:** A map section provides a quick visual assessment of air quality across various regions, aiding in identifying areas in need of intervention.
+- **Historical AQI Trends:** Track long-term changes in air quality to identify improvements or worsening pollution levels over time.
 
 ## Dataset
 The dataset used for this project can be found [here](https://github.com/sorifulislam111/AQI-Tracker-India/blob/main/City_AQI_Data_India.csv). It contains air quality readings for multiple cities in India, including key pollutants such as CO, SO2, NOx, and the AQI. The data is provided in a CSV format, with daily records.
